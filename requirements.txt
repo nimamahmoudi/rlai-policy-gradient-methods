@@ -2,3 +2,4 @@ numpy
 jupyter
 matplotlib
 opencv-python
+PyQt5

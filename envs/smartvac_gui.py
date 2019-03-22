@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, QtGui
 
-from .environment import SmartVac
+from smartvac import SmartVac
 
 import sys
 import threading
@@ -83,7 +83,7 @@ class Consumer(threading.Thread):
         ##########
         from datetime import datetime
         date = datetime.now()
-        filename = date.strftime('%Y-%m-%d_%H-%M-%S.mp4')
+        filename = "video/" + date.strftime('%Y-%m-%d_%H-%M-%S.mp4')
 
         img = get_screen_np_image()
         fps = 10
