@@ -8,7 +8,7 @@ A video of the environment can be found [here](https://youtu.be/GZZFaRAdZng).
 
 The implemented environment looks something like this:
 
-![the designed environment](figs/environment.png)
+![the designed environment](fig/environment.png)
 
 The agents implemented in this repo are classical policy gradient method agents written from scratch which are mentioned in Rich Sutton's book "Reinforcement Learning: An Introduction". It is easy to find the PDF version on Rich Sutton's website. The code inside the repo is self explanatory in jupyter notebooks which makes them pretty easy to read and understand. In case you have any questions, contact me for extra info.
 
