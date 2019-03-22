@@ -16,3 +16,9 @@ I will include the final writeup of my project after it is done in this repo for
 
 You can contact me via my email in my Github account for more information.
 
+# Installation
+
+```
+pip install -r requirements.txt
+jupyter notebook .
+```
