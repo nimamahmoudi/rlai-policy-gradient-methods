@@ -57,8 +57,8 @@ class SmartVac:
 
         if self.y == 0:
             sensors[SmartVac.MOVE_UP] = 1
-            sensors[SmartVac.MOVE_LEFT] = 1
-            sensors[SmartVac.MOVE_RIGHT] = 1
+#             sensors[SmartVac.MOVE_LEFT] = 1
+#             sensors[SmartVac.MOVE_RIGHT] = 1
 
         if self.y == 1:
             sensors[SmartVac.MOVE_DOWN] = 1
