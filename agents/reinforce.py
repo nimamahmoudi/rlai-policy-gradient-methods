@@ -94,7 +94,7 @@ class ReinforceAgent:
 
         action_values = self.get_action_vals_for_obs(observation)
         # pick a random action based on the probs
-        action = np.random.choice(list(range(self.num_of_actions)), p=action_values)
+        action = np.random.choice(list(range(self.num_of_actions)), p=action_values.astype(np.float64))
 
         self.episode['actions'].append(action)
 
