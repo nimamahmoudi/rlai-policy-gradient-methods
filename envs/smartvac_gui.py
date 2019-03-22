@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, QtGui
 
-from smartvac import SmartVac
+from . import SmartVac
 
 import sys
 import threading
