@@ -83,6 +83,8 @@ class ReinforceAgent:
         '''
         all_idx = [helpers.convert_s_a(obs, i) for i in range(self.num_of_actions)]
         action_values = self.get_action_vals(all_idx)
+        action_values = action_values.astype(np.float64)
+        action_values = action_values / np.sum(action_values)
         return action_values
 
     def start(self, observation, done=False):
@@ -94,7 +96,7 @@ class ReinforceAgent:
 
         action_values = self.get_action_vals_for_obs(observation)
         # pick a random action based on the probs
-        action = np.random.choice(list(range(self.num_of_actions)), p=action_values.astype(np.float64))
+        action = np.random.choice(list(range(self.num_of_actions)), p=action_values)
 
         self.episode['actions'].append(action)
 
