@@ -100,7 +100,7 @@ class ActorCriticAgent:
         Taking an action in the start. This function is also used
         for next steps, but we add a pre-step there.
         '''
-        if len(self.episode['rewards']) > 1:
+        if len(self.episode['rewards']) > 0:
             obs = self.episode['observations'][-1]
             action = self.episode['actions'][-1]
 
