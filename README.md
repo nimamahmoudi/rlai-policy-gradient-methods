@@ -2,7 +2,9 @@
 
 This repository contains all the codes and experiments I will be doing for my Reinforcement Learning in AI II course.
 
-I will try and refine the environment later on to make it match the OpenAI Gym library syntax so that other people could easily use it.
+I will try and refine the environment later on to make it match the OpenAI Gym library syntax so that other people could easily use it easily.
+
+The problem used in this project was inspired by [this blog post](https://medium.freecodecamp.org/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f).
 
 A video of the environment can be found [here](https://youtu.be/GZZFaRAdZng).
 
